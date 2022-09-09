@@ -281,11 +281,6 @@
   "resolved" "https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz"
   "version" "0.7.5"
 
-"@goulvenc/typescript-table@^0.0.8":
-  "integrity" "sha512-Vyp52IKIH6IKBEb1iZFva0jyfKO/tOUX3IMjghuj/1Pu/KNnXAnMShNBb6DSBI3AIqssYz/7l6av9LjI26syfg=="
-  "resolved" "https://registry.npmjs.org/@goulvenc/typescript-table/-/typescript-table-0.0.8.tgz"
-  "version" "0.0.8"
-
 "@metyx/typescript-table@^0.0.8":
   "integrity" "sha512-/qN+2TQ9vgjtElEr5L2aBA8qov3t/5P+7EhQhifLMM61t6bX5CfO1ZS8p62GHyV2P7cPmGySBeKQjaf4J/qA5g=="
   "resolved" "https://registry.npmjs.org/@metyx/typescript-table/-/typescript-table-0.0.8.tgz"
@@ -327,6 +322,11 @@
   dependencies:
     "estree-walker" "^2.0.1"
     "picomatch" "^2.2.2"
+
+"@types/node@^18.7.16":
+  "integrity" "sha512-EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-18.7.16.tgz"
+  "version" "18.7.16"
 
 "@types/parse-json@^4.0.0":
   "integrity" "sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA=="

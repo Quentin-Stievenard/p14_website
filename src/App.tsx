@@ -1,14 +1,14 @@
-import * as ReactDOM from "react-dom"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import "tailwindcss/tailwind.css"
-import { GlobalStateProvider } from "./GlobalState"
-import EmployeesPage from "./pages/Employees"
-import LandingPage from "./pages/Landing"
+import * as ReactDOM from "react-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "tailwindcss/tailwind.css";
+import { GlobalStateProvider } from "./GlobalState";
+import EmployeesPage from "./pages/Employees";
+import LandingPage from "./pages/Landing";
 /**
  * Router logic of our app.
  */
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <GlobalStateProvider>
       <Routes>
         <Route path="/">
@@ -19,4 +19,4 @@ ReactDOM.render(
     </GlobalStateProvider>
   </BrowserRouter>,
   document.getElementById("root")
-)
+);
