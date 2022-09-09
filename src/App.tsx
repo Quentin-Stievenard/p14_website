@@ -11,10 +11,8 @@ ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <GlobalStateProvider>
       <Routes>
-        <Route path="/">
-          <Route index element={<LandingPage />} />
-          <Route path="employees" element={<EmployeesPage />} />
-        </Route>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/employees" element={<EmployeesPage />} />
       </Routes>
     </GlobalStateProvider>
   </BrowserRouter>,
