@@ -8,7 +8,7 @@ import LandingPage from "./pages/Landing";
  * Router logic of our app.
  */
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter>
     <GlobalStateProvider>
       <Routes>
         <Route path="/" element={<LandingPage />} />
